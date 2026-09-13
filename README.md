@@ -29,7 +29,7 @@ Develop SQL-based analytics to deliver detailed insights into:
 
 -------------------------------------------------------------------------------------------------------------------------
 ## License
-This project is licensed under the [MIT License].(LICENSE). You are free to use, modify, and share this project with proper attrubution.
+This project is licensed under the [MIT License](LICENSE). You are free to use, modify, and share this project with proper attribution.
 
 ## About Me
 Hi there ! I am **Vipin Kumar**, I am an IT professional and passionate Data Analytics.
