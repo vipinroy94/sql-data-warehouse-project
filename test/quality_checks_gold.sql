@@ -1,6 +1,24 @@
+/*
+-======================================================================================
+-- Quality Checks
+-======================================================================================
+Script Purpose:
+	This script perform quality checks to validate the integrity, consitency, and accuracy
+	of the Gold Layer. These checks ensure:
+	- Uniqueness of surrogate keys in dimension tables.
+	- Referential integrity between fact and dimension tables.
+	- Validation of releationships in the data model for analytical purposes.
+Usage Note:
+	- Run these checks after data loading Silver Layer.
+	- Investigate and resolve any discrepancies found during checks.
+-======================================================================================
+*/
+
+
+
 
 -======================================================================================
--- Create Dimension: gold.dim_customers
+-- Checking: gold.dim_customers
 -======================================================================================
 
 IF OBJECT_ID('gold.dim_customer', 'V') IS NOT NULL
@@ -30,7 +48,7 @@ ON ci.cst_key = la.CID;
 GO
 
 -======================================================================================
--- Create Dimension: gold.dim_products
+-- Checking: gold.dim_products
 -======================================================================================
 
 IF OBJECT_ID('gold.dim_products', 'V') IS NOT NULL
@@ -58,7 +76,7 @@ GO
 
 
 -======================================================================================
--- Create Fact: gold.fact_sales
+-- Checking: gold.fact_sales
 -======================================================================================
   
 IF OBJECT_ID('gold.fact_sales', 'V') IS NOT NULL
