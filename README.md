@@ -35,6 +35,12 @@ Develop SQL-based analytics to deliver detailed insights into:
 - **Product Performance**
 - **Sales Trends**
 
+## Data Architechture
+<img width="1627" height="747" alt="image" src="https://github.com/user-attachments/assets/be96cb1c-f0e1-461c-be5e-ddb1a4717e5d" />
+
+
+
+
 -------------------------------------------------------------------------------------------------------------------------
 ## License
 This project is licensed under the [MIT License](LICENSE). You are free to use, modify, and share this project with proper attribution.
